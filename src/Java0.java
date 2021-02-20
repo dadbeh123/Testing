@@ -7,7 +7,7 @@ public class Java0 {
         Scanner scanner = new Scanner(System.in);
         int X = scanner.nextInt();
         int N = scanner.nextInt();
-        if (N == 6) out.println(X);
+        if (N == 7) out.println(X);
         else if (N == 0) out.println(20);
         else out.println(Math.max(X - N, 0));
     }
